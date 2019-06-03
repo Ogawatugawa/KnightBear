@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public float maxDodgeTime, preDodgeDelay, afterDodgeDelay;
     private float dodgeTimer;
     public static bool isDodging;
-    private Vector2 dashDirection;
+    private Vector2 dodgeDirection;
 
     private Animator anim;
     private CharacterController2D charC;
@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isDodging)
         {
             // Store the direction we were facing when the dodge started
-            dashDirection = direction;
+            dodgeDirection = direction;
             // Delay movement by the pre-dodge penalty
             StartCoroutine(PreDodgeDelay(preDodgeDelay));
             // Set our dash timer to 0
@@ -76,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
         // If Dash is active, i.e. our dash timer is on and counting up
         if (dodgeTimer < maxDodgeTime)
         {
-            direction = dashDirection;
+            direction = dodgeDirection;
             // Motion becomes our last faced direction multiplied by our dash speed
             motion = direction * dodgeSpeed;
             // Count up the dash timer by Time.deltaTime
@@ -133,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator AfterDodgeDelay(float delay)
     {
         CanMove = false;
-        direction = dashDirection;
+        direction = dodgeDirection;
         yield return new WaitForSeconds(delay);
         CanMove = true;
     }

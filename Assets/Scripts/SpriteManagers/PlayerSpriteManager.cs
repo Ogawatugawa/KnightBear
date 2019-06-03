@@ -24,19 +24,6 @@ public class PlayerSpriteManager : MonoBehaviour
         yPos = feet.bounds.center.y;
     }
 
-    Color ChangeAlpha(Color color)
-    {
-        if (color.a > 0.5f)
-        {
-            color.a -= 0.5f * Time.deltaTime;
-        }
-
-        else if (color.a < 0.5f)
-        {
-            color.a -= 0.5f * Time.deltaTime;
-        }
-        return color;
-    }
     private void OnTriggerStay2D(Collider2D other)
     {
         PropSpriteManager prop = other.GetComponent<PropSpriteManager>();
