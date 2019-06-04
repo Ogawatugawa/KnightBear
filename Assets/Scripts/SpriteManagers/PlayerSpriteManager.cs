@@ -33,13 +33,19 @@ public class PlayerSpriteManager : MonoBehaviour
 
             if (yPos < prop.yPos)
             {
-                rend.sortingOrder = prop.rend.sortingOrder + 1;
+                if (rend.sortingOrder <= prop.rend.sortingOrder)
+                {
+                    rend.sortingOrder = prop.rend.sortingOrder + 1; 
+                }
                 prop.state = AlphaState.AlphaUp;
             }
 
             else if (yPos >= prop.yPos)
             {
-                rend.sortingOrder = prop.rend.sortingOrder - 1;
+                if (rend.sortingOrder >= prop.rend.sortingOrder)
+                {
+                    rend.sortingOrder = prop.rend.sortingOrder - 1; 
+                }
                 prop.state = AlphaState.AlphaDown;
             }
         }

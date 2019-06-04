@@ -9,6 +9,9 @@ public class PropSpriteManager : MonoBehaviour
     public SpriteRenderer rend;
     public Collider2D propCollider;
     public float yPos;
+
+    public bool TransparencyOn;
+
     void Start()
     {
         color = GetComponent<SpriteRenderer>().color;
@@ -19,29 +22,32 @@ public class PropSpriteManager : MonoBehaviour
 
     void Update()
     {
-        switch (state)
+        if (TransparencyOn)
         {
-            case AlphaState.AlphaUp:
-                if (color.a < 1f)
-                {
-                    color.a += 2f * Time.deltaTime;
-                    GetComponent<SpriteRenderer>().color = color;
-                }
-                break;
-            case AlphaState.AlphaDown:
-                if (color.a > 0.5f)
-                {
-                    color.a -= 2f * Time.deltaTime;
-                    GetComponent<SpriteRenderer>().color = color;
-                }
-                break;
-            default:
-                if (color.a > 0.5f)
-                {
-                    color.a -= 2f * Time.deltaTime;
-                    GetComponent<SpriteRenderer>().color = color;
-                }
-                break;
+            switch (state)
+            {
+                case AlphaState.AlphaUp:
+                    if (color.a < 1f)
+                    {
+                        color.a += 2f * Time.deltaTime;
+                        GetComponent<SpriteRenderer>().color = color;
+                    }
+                    break;
+                case AlphaState.AlphaDown:
+                    if (color.a > 0.5f)
+                    {
+                        color.a -= 2f * Time.deltaTime;
+                        GetComponent<SpriteRenderer>().color = color;
+                    }
+                    break;
+                default:
+                    if (color.a > 0.5f)
+                    {
+                        color.a -= 2f * Time.deltaTime;
+                        GetComponent<SpriteRenderer>().color = color;
+                    }
+                    break;
+            }
         }
     }
 }

@@ -32,8 +32,6 @@ public class PlayerAttack : MonoBehaviour
     [Header("Animation")]
     public Animator anim;
 
-    private CharacterController2D charC;
-
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(transform.position + (Vector3)PlayerMovement.direction * attackRange, attackRadius);
@@ -41,7 +39,6 @@ public class PlayerAttack : MonoBehaviour
 
     void Start()
     {
-        charC = GetComponent<CharacterController2D>();
         anim = GetComponent<Animator>();
     }
 
@@ -54,7 +51,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (IsAttacking)
         {
-            charC.Move(attackMotion * Time.deltaTime);
+            PlayerMovement.rb.MovePosition(PlayerMovement.rb.position + attackMotion * Time.deltaTime);
         }
 
         ComboTime();

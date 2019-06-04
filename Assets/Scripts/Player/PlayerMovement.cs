@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Prime31;
 
-[RequireComponent(typeof(CharacterController2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Variables")]
@@ -21,14 +20,14 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 dodgeDirection;
 
     private Animator anim;
-    private CharacterController2D charC;
     private SpriteRenderer rend;
+    public static Rigidbody2D rb;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        charC = GetComponent<CharacterController2D>();
         rend = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
 
         dodgeTimer = maxDodgeTime;
     }
@@ -47,8 +46,8 @@ public class PlayerMovement : MonoBehaviour
             // Run Dodge() which will dodge if Left Shift is pressed
             Dodge();
 
-            //Move using Character Controller function
-            charC.Move(motion * Time.deltaTime);
+            //Move using Rigidbody 2D
+            rb.MovePosition(rb.position + motion * Time.deltaTime);
         }
     }
 
@@ -73,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
             dodgeTimer = 0;
         }
 
-        // If Dash is active, i.e. our dash timer is on and counting up
+        // If Dodge is active, i.e. our dash timer is on and counting up
         if (dodgeTimer < maxDodgeTime)
         {
             direction = dodgeDirection;
@@ -83,8 +82,6 @@ public class PlayerMovement : MonoBehaviour
             dodgeTimer += Time.deltaTime;
             //Set IsDodging to true
             isDodging = true;
-            // Keep the cooldown timer to 0 so Dash doesn't start cooling down until the Dash is completed
-            //cooldownTimer = 0;
         }
 
         // Else if our dodge time is up and we're still flagged as dodging
