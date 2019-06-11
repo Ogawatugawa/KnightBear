@@ -1,17 +1,14 @@
 fileFormatVersion: 2
-guid: 277a7ae5079121f4ebedc2bc9bd35bc4
+guid: 9e20ebdf685eaaa4eaf8c252cb3178a8
 TextureImporter:
   fileIDToRecycleName:
     21300000: Bear_LightAttack_Right_0
     21300002: Bear_LightAttack_Right_1
     21300004: Bear_LightAttack_Right_2
-    21300006: Bear_LightAttack_Right_3
-    21300008: Bear_LightAttack_Right_4
-    21300010: Bear_LightAttack_Right_5
-    21300012: Bear_LightAttack_Right_7
-    21300014: Bear_LightAttack_Right_9
-    21300016: Bear_LightAttack_Right_11
-    21300018: Bear_LightAttack_Right_12
+    21300006: Bear_LightAttack_Right_4
+    21300008: Bear_LightAttack_Right_6
+    21300010: Bear_LightAttack_Right_8
+    21300012: Bear_LightAttack_Right_9
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -97,18 +94,18 @@ TextureImporter:
       name: Bear_LightAttack_Right_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 15
         y: 25
-        width: 20
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c8fc86f68208a744a525a8555d466c1
+      spriteID: 0802e3afd1307e340b3aa086ccbfc7e9
       vertices: []
       indices: 
       edges: []
@@ -117,18 +114,18 @@ TextureImporter:
       name: Bear_LightAttack_Right_1
       rect:
         serializedVersion: 2
-        x: 98
-        y: 25
-        width: 20
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 22
+        width: 58
+        height: 31
+      alignment: 9
+      pivot: {x: 0.2918792, y: 0.1106125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e13897388c50ace42a250e3da5799d37
+      spriteID: 1c9c774562abc174c904b1053dff3c5f
       vertices: []
       indices: 
       edges: []
@@ -137,38 +134,18 @@ TextureImporter:
       name: Bear_LightAttack_Right_2
       rect:
         serializedVersion: 2
-        x: 176
-        y: 25
-        width: 23
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f7304ae2a79644b842a75d6085b807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Right_3
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 25
-        width: 23
-        height: 34
+        x: 175
+        y: 22
+        width: 54
+        height: 33
       alignment: 9
-      pivot: {x: 0.5187259, y: 0.5}
+      pivot: {x: 0.28778133, y: 0.097169936}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f3ee9b84f1040459ddde16d1154ff7
+      spriteID: f87f609bedf2a5a45a663cfc09b79192
       vertices: []
       indices: 
       edges: []
@@ -177,58 +154,58 @@ TextureImporter:
       name: Bear_LightAttack_Right_4
       rect:
         serializedVersion: 2
-        x: 336
+        x: 260
+        y: 22
+        width: 49
+        height: 36
+      alignment: 9
+      pivot: {x: 0.20376027, y: 0.09253968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9817fd4f2243b8345a0c660b31c9db40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_LightAttack_Right_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 22
+        width: 49
+        height: 36
+      alignment: 9
+      pivot: {x: 0.20376027, y: 0.07980654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d08ee7fb2aa184586d1087b378b7c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_LightAttack_Right_8
+      rect:
+        serializedVersion: 2
+        x: 418
         y: 25
         width: 47
         height: 34
       alignment: 9
-      pivot: {x: 0.27091882, y: 0.5}
+      pivot: {x: 0.22041483, y: 0.010148778}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde1e09e79d924e44941fb3edf079fac
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Right_5
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 25
-        width: 41
-        height: 34
-      alignment: 9
-      pivot: {x: 0.195378, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 981755741348fe04892dd79bfc963555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Right_7
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 25
-        width: 43
-        height: 34
-      alignment: 9
-      pivot: {x: 0.21956404, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d0367cbb35b53046b87d65f9ecf68bd
+      spriteID: d26ecb3227114d240bafe0694eb81b0a
       vertices: []
       indices: 
       edges: []
@@ -237,58 +214,18 @@ TextureImporter:
       name: Bear_LightAttack_Right_9
       rect:
         serializedVersion: 2
-        x: 578
+        x: 497
         y: 25
-        width: 43
+        width: 47
         height: 34
       alignment: 9
-      pivot: {x: 0.22957735, y: 0.5}
+      pivot: {x: 0.2150301, y: 0.006731875}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31fc8b4cffebc74a807ee3422a17451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Right_11
-      rect:
-        serializedVersion: 2
-        x: 657
-        y: 25
-        width: 15
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dedddcf61aed0ed4db963f3b03369f7a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Right_12
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 25
-        width: 15
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd3f02700f6129146a808192a1a02a15
+      spriteID: a274f3ef009c97d4a868c805fb4e4de8
       vertices: []
       indices: 
       edges: []
@@ -296,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 04d74f83805775245bfb77b1ef4ea82b
+    spriteID: 1383055da360cc4499764ff08dc615e6
     vertices: []
     indices: 
     edges: []

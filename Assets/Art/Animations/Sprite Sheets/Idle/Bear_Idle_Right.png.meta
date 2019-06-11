@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4086183383aa2c04e80a830d6735faea
+guid: a93274bbec335aa4e9743072abe4ffa4
 TextureImporter:
   fileIDToRecycleName:
     21300000: Bear_Idle_Right_0
@@ -47,7 +47,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 24
-  spriteBorder: {x: 22, y: 24, z: 42, w: 23}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -88,18 +88,18 @@ TextureImporter:
       name: Bear_Idle_Right_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 22
         y: 25
-        width: 15
+        width: 17
         height: 35
       alignment: 9
-      pivot: {x: 0.37632638, y: 0.5}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0343cc88d6419314789c7ef3b9ba836a
+      spriteID: 119faf368ad58ec458e5ea68ec6e171a
       vertices: []
       indices: 
       edges: []
@@ -107,7 +107,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 63f99c8f29ef8c34bb4ba72ad2b653a4
+    spriteID: c30083cded203834e9992bf71a000feb
     vertices: []
     indices: 
     edges: []

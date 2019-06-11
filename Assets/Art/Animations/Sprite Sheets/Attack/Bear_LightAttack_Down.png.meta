@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e04e8cba573a3a94198db3fc0e2faa0e
+guid: d6ed0e0be8b32df42bf99a2399504bb2
 TextureImporter:
   fileIDToRecycleName:
     21300000: Bear_LightAttack_Down_0
@@ -12,6 +12,7 @@ TextureImporter:
     21300014: Bear_LightAttack_Down_7
     21300016: Bear_LightAttack_Down_8
     21300018: Bear_LightAttack_Down_9
+    21300020: Bear_LightAttack_Down_10
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -97,18 +98,18 @@ TextureImporter:
       name: Bear_LightAttack_Down_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 30
         y: 26
-        width: 17
+        width: 19
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f345fb7b079403e498abb92d54f3ace8
+      spriteID: 97da2717e722979429c759b17bc7be67
       vertices: []
       indices: 
       edges: []
@@ -117,18 +118,18 @@ TextureImporter:
       name: Bear_LightAttack_Down_1
       rect:
         serializedVersion: 2
-        x: 110
-        y: 26
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 100
+        y: 12
+        width: 46
+        height: 41
+      alignment: 9
+      pivot: {x: 0.35616586, y: 0.32913256}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89493dfc1864e694ab11252b74ea28b7
+      spriteID: f585126303365554e8dba8b479f2bc67
       vertices: []
       indices: 
       edges: []
@@ -137,58 +138,18 @@ TextureImporter:
       name: Bear_LightAttack_Down_2
       rect:
         serializedVersion: 2
-        x: 188
-        y: 26
-        width: 18
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 562a662ae947aaa4da5c6820a53f2434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Down_3
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 26
-        width: 18
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e00c2e57b20a2a42a61d95945fe2026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Down_4
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 18
-        width: 39
-        height: 35
+        x: 184
+        y: 12
+        width: 41
+        height: 42
       alignment: 9
-      pivot: {x: 0.4106852, y: 0.657527}
+      pivot: {x: 0.2911615, y: 0.36100042}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e0deacd50780b04aa85223e73d88469
+      spriteID: 94fdfa06920912f4ca53c3ab15772bb8
       vertices: []
       indices: 
       edges: []
@@ -197,38 +158,18 @@ TextureImporter:
       name: Bear_LightAttack_Down_5
       rect:
         serializedVersion: 2
-        x: 426
-        y: 20
-        width: 31
-        height: 34
+        x: 265
+        y: 12
+        width: 39
+        height: 42
       alignment: 9
-      pivot: {x: 0.34755388, y: 0.62741125}
+      pivot: {x: 0.22057557, y: 0.35173398}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f8a2e25e74c2a542a02aac0d99b5234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Down_6
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 20
-        width: 31
-        height: 34
-      alignment: 9
-      pivot: {x: 0.25862762, y: 0.6505769}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ce7f514ab826674887a51a9fccb5e19
+      spriteID: 9fd78ac3bcc4dbe4680d5168693f73fc
       vertices: []
       indices: 
       edges: []
@@ -237,38 +178,18 @@ TextureImporter:
       name: Bear_LightAttack_Down_7
       rect:
         serializedVersion: 2
-        x: 583
-        y: 20
-        width: 31
-        height: 34
+        x: 344
+        y: 12
+        width: 39
+        height: 42
       alignment: 9
-      pivot: {x: 0.2804959, y: 0.6530463}
+      pivot: {x: 0.23055482, y: 0.35173398}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5afa0c828f05f9c4b8c99c2ccaf6eee5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bear_LightAttack_Down_8
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 26
-        width: 15
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26eacbb2ce5be0d479e1faf78847f39c
+      spriteID: 2fe372528ee2dd24391481c69c24f947
       vertices: []
       indices: 
       edges: []
@@ -277,18 +198,38 @@ TextureImporter:
       name: Bear_LightAttack_Down_9
       rect:
         serializedVersion: 2
-        x: 740
-        y: 26
-        width: 15
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 423
+        y: 20
+        width: 37
+        height: 34
+      alignment: 9
+      pivot: {x: 0.22650889, y: 0.19093081}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d15677d5c558d86448b971c5d1bcf48d
+      spriteID: eedb88edb8bf6dd479c0401d36c6b4be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_LightAttack_Down_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 20
+        width: 37
+        height: 34
+      alignment: 9
+      pivot: {x: 0.22650889, y: 0.19093098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efc892628baccf4c9adfcce2f21bdfe
       vertices: []
       indices: 
       edges: []
@@ -296,7 +237,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 611c4b85077a59d4d9e47543927ed00a
+    spriteID: 70e60e108061f3648826adf6d9e17e4b
     vertices: []
     indices: 
     edges: []

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e6af5328bd7ee3e4bb1701f28505879d
+guid: 99c5fa93b257bec4f9a6ae4fc249e999
 TextureImporter:
   fileIDToRecycleName:
     21300000: Bear_Idle_Up_0
@@ -88,18 +88,18 @@ TextureImporter:
       name: Bear_Idle_Up_0
       rect:
         serializedVersion: 2
-        x: 34
+        x: 33
         y: 26
-        width: 15
+        width: 17
         height: 32
       alignment: 9
-      pivot: {x: 0.46767908, y: 0.5}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e6388e680144544c8454e922489fc53
+      spriteID: 36ba47751ef3e1a43b6fbc917b475362
       vertices: []
       indices: 
       edges: []
@@ -107,7 +107,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7d3326d913600e04faaa53d7c779b576
+    spriteID: 3effe9eeb31452e4ea05c86b9bec6b67
     vertices: []
     indices: 
     edges: []

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4269c9bec814dca4799b26f941ec2fd4
+guid: 9d09ec18aa0d57b45b723ee605deb052
 TextureImporter:
   fileIDToRecycleName:
     21300000: Bear_Dodge_Up_0
@@ -99,18 +99,18 @@ TextureImporter:
       name: Bear_Dodge_Up_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 34
         y: 26
-        width: 17
+        width: 21
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f661c8c34fc9dae4c865c306d0d0860e
+      spriteID: 312d269cd89ec91498e092536b89e382
       vertices: []
       indices: 
       edges: []
@@ -119,18 +119,18 @@ TextureImporter:
       name: Bear_Dodge_Up_1
       rect:
         serializedVersion: 2
-        x: 115
+        x: 113
         y: 26
-        width: 17
+        width: 21
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fd75f253f0e2e49ac1964da818c54e
+      spriteID: 5790b72b4f68eda42a839d3fa675d21f
       vertices: []
       indices: 
       edges: []
@@ -139,18 +139,18 @@ TextureImporter:
       name: Bear_Dodge_Up_2
       rect:
         serializedVersion: 2
-        x: 193
-        y: 34
-        width: 19
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 192
+        y: 26
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dd76860f26b68a40bfee5e7677c67ab
+      spriteID: b6449b34b2480724d89a95f8a21759d3
       vertices: []
       indices: 
       edges: []
@@ -159,18 +159,18 @@ TextureImporter:
       name: Bear_Dodge_Up_3
       rect:
         serializedVersion: 2
-        x: 272
-        y: 34
-        width: 19
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 271
+        y: 26
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: febecfe7aa1b4ae4db80af0dfb8b402d
+      spriteID: b05e32d4c587ee64783729d3d287d53d
       vertices: []
       indices: 
       edges: []
@@ -179,18 +179,18 @@ TextureImporter:
       name: Bear_Dodge_Up_4
       rect:
         serializedVersion: 2
-        x: 352
-        y: 34
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 350
+        y: 26
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0574fd9462d2dd64291e5458c72a8761
+      spriteID: d05ff03b6839a1a47a0ccad9c4a91129
       vertices: []
       indices: 
       edges: []
@@ -199,18 +199,18 @@ TextureImporter:
       name: Bear_Dodge_Up_5
       rect:
         serializedVersion: 2
-        x: 431
-        y: 34
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 429
+        y: 26
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab59eea007e684543b45877b5df32807
+      spriteID: 1c496dd09ebbffa47bc8287f53c30bf8
       vertices: []
       indices: 
       edges: []
@@ -222,15 +222,15 @@ TextureImporter:
         x: 507
         y: 26
         width: 23
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa7dc6faefec5b4e80ac08c063c1a24
+      spriteID: 39ee5b88145f878478901b916ba6508c
       vertices: []
       indices: 
       edges: []
@@ -242,15 +242,15 @@ TextureImporter:
         x: 586
         y: 26
         width: 23
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 789b4a4bd6f939e4085f7010a7014709
+      spriteID: f7584afd6ed802c4ab61025bce4c9d79
       vertices: []
       indices: 
       edges: []
@@ -262,15 +262,15 @@ TextureImporter:
         x: 666
         y: 26
         width: 20
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b3eda61ec5e0d4e80a29dae3cef7df
+      spriteID: 287855f45067e4646bc66008872e8630
       vertices: []
       indices: 
       edges: []
@@ -282,15 +282,15 @@ TextureImporter:
         x: 745
         y: 26
         width: 20
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fe9674ddde98ca499f7d281df69f3cd
+      spriteID: 71c3abf92b157d64c83d0c0eeaf12514
       vertices: []
       indices: 
       edges: []
@@ -299,18 +299,18 @@ TextureImporter:
       name: Bear_Dodge_Up_10
       rect:
         serializedVersion: 2
-        x: 826
+        x: 824
         y: 26
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 21
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c93fcd79df332734b8f190d3bd791727
+      spriteID: a27e497b55ed06646800c75e8ec9067f
       vertices: []
       indices: 
       edges: []
@@ -319,18 +319,18 @@ TextureImporter:
       name: Bear_Dodge_Up_11
       rect:
         serializedVersion: 2
-        x: 905
+        x: 903
         y: 26
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 21
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b27678f38ccde344984dc4291f49176d
+      spriteID: 5204acb202de9aa42853eec0b57882b8
       vertices: []
       indices: 
       edges: []
@@ -338,7 +338,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1b92667e573b9c7458afd21fdbe637ba
+    spriteID: 5dd0e6c9a37a2b94996a452a5aa27214
     vertices: []
     indices: 
     edges: []
